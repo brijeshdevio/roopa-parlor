@@ -68,3 +68,55 @@ export const testimonials = [
     rating: "★★★★☆"
   }
 ];
+
+
+export const services = [
+  {
+    id: 1,
+    name: "Basic Facial",
+    image: "https://placehold.co/600x400?text=Basic+Facial",
+    description: "Cleansing, exfoliation, and hydration for refreshed and glowing skin.",
+    price: "₹800",
+    time: 45
+  },
+  {
+    id: 2,
+    name: "Bridal Makeup",
+    image: "https://placehold.co/600x400?text=Bridal+Makeup",
+    description: "Full bridal makeup with premium products to make you shine on your big day.",
+    price: "₹5000",
+    time: 120
+  },
+  {
+    id: 3,
+    name: "Haircut & Styling",
+    image: "https://placehold.co/600x400?text=Haircut+%26+Styling",
+    description: "Trendy haircuts and styling suited to your face shape and personality.",
+    price: "₹600",
+    time: 40
+  },
+  {
+    id: 4,
+    name: "Manicure & Pedicure Combo",
+    image: "https://placehold.co/600x400?text=Manicure+%26+Pedicure",
+    description: "Complete nail and foot care with gentle exfoliation and polish.",
+    price: "₹1000",
+    time: 60
+  },
+  {
+    id: 5,
+    name: "Full Body Waxing",
+    image: "https://placehold.co/600x400?text=Full+Body+Waxing",
+    description: "Smooth, hair-free skin using gentle wax for all skin types.",
+    price: "₹1500",
+    time: 90
+  },
+  {
+    id: 6,
+    name: "Hair Spa",
+    image: "https://placehold.co/600x400?text=Hair+Spa",
+    description: "Nourishing treatment for dry and damaged hair with a relaxing scalp massage.",
+    price: "₹1200",
+    time: 60
+  },
+];

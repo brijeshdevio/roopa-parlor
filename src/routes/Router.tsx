@@ -1,5 +1,5 @@
 import { BaseLayout } from "@/layouts";
-import { Home } from "@/pages";
+import { Home, Service } from "@/pages";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const Router = () => {
@@ -8,6 +8,7 @@ const Router = () => {
       <Routes>
         <Route element={<BaseLayout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Service />} />
         </Route>
       </Routes>
     </BrowserRouter>
